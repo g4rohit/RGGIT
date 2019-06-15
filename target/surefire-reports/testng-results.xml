@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31149" started-at="2019-05-29T22:20:18Z" finished-at="2019-05-29T22:20:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31149" started-at="2019-05-29T22:20:18Z" finished-at="2019-05-29T22:20:49Z">
+      <class name="Academy.VerifyTitle">
+        <test-method status="PASS" signature="BrowInitialize()[pri:0, instance:Academy.VerifyTitle@1936f0f5]" name="BrowInitialize" is-config="true" duration-ms="28598" started-at="2019-05-30T08:20:18Z" finished-at="2019-05-30T08:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowInitialize -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:Academy.VerifyTitle@1936f0f5]" name="VerifyTitle" duration-ms="453" started-at="2019-05-30T08:20:47Z" finished-at="2019-05-30T08:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.VerifyTitle@1936f0f5]" name="teardown" is-config="true" duration-ms="2081" started-at="2019-05-30T08:20:47Z" finished-at="2019-05-30T08:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.VerifyTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Validating title of the page(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.authenticationPopUpLogin">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.authenticationPopUpLogin -->
+      <class name="Academy.VerifyTitle">
+        <methods>
+          <include name="VerifyTitle"/>
+          <include name="BrowInitialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.VerifyTitle -->
+    </classes>
+  </test> <!-- Validating title of the page(failed) -->
+  <test name="This is HomePage test(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="QAClickAcademyLogin" invocation-numbers="1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.authenticationPopUpLogin">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.authenticationPopUpLogin -->
+      <class name="Academy.VerifyTitle">
+        <methods>
+          <include name="BrowInitialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.VerifyTitle -->
+    </classes>
+  </test> <!-- This is HomePage test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
