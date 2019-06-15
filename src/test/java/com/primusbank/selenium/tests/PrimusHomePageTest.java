@@ -34,6 +34,12 @@ public class PrimusHomePageTest extends base {
 		PrimusHomePageObj PHP=new PrimusHomePageObj(driver);
 		PHP.getBranchesButton().click();
 	}
+	@Test
+	
+public void newTest()
+{
+		System.out.println("This is for GIT");
+}
 	
 	@AfterTest(description="Close Browser and delete memory")
     public void QuitBrowser()
