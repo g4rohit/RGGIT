@@ -38,7 +38,7 @@ public class PrimusHomePageTest extends base {
 	
 public void newTest()
 {
-		System.out.println("This is modified again from GITHUB");
+		System.out.println("This is modified again from GITHUBB");
 }
 	
 	@AfterTest(description="Close Browser and delete memory")
